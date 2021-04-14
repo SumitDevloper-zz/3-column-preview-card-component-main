@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+body{
+    background-color: #dbf6e9;
+    min-height: 100vh;
+    Font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-weight: 600 ;
+    text-transform: uppercase;
+    line-height: 4rem;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 0.92rem 0;
+
+}
+
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 4.65rem;
+}
+
+
+
+
+.container{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 250px 250px 250px;
+    padding: 5.75rem 8.75rem ;
+    box-shadow: 0 3rem 4rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+
+.card{
+    
+    background-color: #ffffff;
+    padding: 2.60rem;
+    line-height: 1.50rem;
+    box-shadow: 0 3rem 4rem 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    
+}
+
+.c1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+
+.c2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.c3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+
+/* Links Links Links Links Links Links Links Links Links Links */
+
+a{
+    font-family: 'Lexend Deca', sans-serif;  
+}
+
+
+div a:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+} 
+
+
+a{
+    text-decoration: none;
+    background-color:hsl(0, 0%, 95%);
+    padding: 8px 16px;
+    border-radius: 2rem;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.c1 a{
+    color:hsl(31, 77%, 52%);
+}
+
+.c2 a{
+    color:hsl(184, 100%, 22%);
+}
+
+
+
+.c3 a{
+    color:hsl(179, 100%, 13%);
+}
+
+/* End End End End End End End End End End End End End End End End End End */
+
+
+
+/* For Mobile For Mobile For Mobile For Mobile For Mobile For Mobile For Mobile For Mobile For Mobile */
+
+@media only screen and (max-width: 375px){
+      
+
+     body{
+         background-color: white;
+         padding: 20px 0;
+         font-size: 7.5px;
+     }
+
+    .container{
+        grid-template-columns: 300px;
+        padding: 0;
+    }
+
+      h2{
+          line-height: 2rem;
+          font-size: 1.25rem;
+      }
+
+}
